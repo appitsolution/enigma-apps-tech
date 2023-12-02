@@ -7,7 +7,8 @@ const Header = () => {
       <div className="container">
         <div className="header-block">
           <a className="header-logo">
-            <Image className="header-logo-icon" />
+            Enigma Apps Tech
+            {/* <Image className="header-logo-icon" /> */}
           </a>
 
           <ul className="header-menu">

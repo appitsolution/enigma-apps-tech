@@ -1,0 +1,43 @@
+.hero {
+    background: url('https://community.thriveglobal.com/wp-content/uploads/2020/08/smartphone.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 470px;
+
+    background: rgba(0,0,0,0.5);
+}
+
+
+.hero-title {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 39px;
+    color: $second-color;
+    &::after {
+        content: '';    
+        top: 100%;
+        left: 0;
+        width: 100% ;
+        height: 2px;
+        background: $second-color;
+    }
+}
+
+
+.hero-button {
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: $second-color;
+    font-size: 25px;
+    background: $accent;
+    cursor: pointer;
+}
